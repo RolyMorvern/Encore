@@ -7,7 +7,7 @@ In the **Encore project**, I leveraged a dynamic tech stack that seamlessly comb
 
 As part of this endeavor, I delved into the intricacies of the **Fetch API** in JavaScript, broadening my skill set and elevating the project's overall functionality. I also added multi-language support using he i18n JavaScript library.
 
-To enrich the user experience and empower data integration, I integrated two powerful libraries:
+I used the following API's:
 
 1. [theNewsAPI](https://www.thenewsapi.com/)
 2. [Marketaux](https://www.marketaux.com/)
