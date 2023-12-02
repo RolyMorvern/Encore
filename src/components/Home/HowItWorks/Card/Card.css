@@ -1,0 +1,24 @@
+.how-it-works-card {
+	transform: translateY(-50px);
+	opacity: 0;
+	width: 275px;
+	height: 200px;
+	border-radius: 12.5px;
+	padding: 10px;
+	-webkit-box-shadow: 15px 15px 0px 6px #FFFFFF; 
+	box-shadow: 15px 15px 0px 6px #FFFFFF;
+}
+.h-card-header {
+	text-align: center;
+	font-size: 1.2rem;
+	margin-top: 10px;
+}
+.light-blue-bg {
+	background-color: #045f71;
+}
+.mid-blue-bg {
+	background-color: #094652;
+}
+.dark-blue-bg {
+	background-color: #032830;
+}

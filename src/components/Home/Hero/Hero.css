@@ -1,0 +1,43 @@
+#hero-header {
+	transform: translateY(-25px);
+	clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);	
+}
+#hero-subheader {
+	transform: translateY(-10px);
+	clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+#hero-watermark-container {
+	width: 10%;
+	height: 100vh;
+	right: 0;
+	top: 100px;
+	position: absolute;
+}
+#hero-watermark {
+	width: 75%;
+}
+@media(max-height: 775px) {
+	#hero-watermark {
+		height: 99vh;
+	}
+}
+@media (min-width: 1950px) {
+	#hero-watermark {
+		width: 55%;
+	}
+}
+@media (max-width: 1450px) {
+	#hero-watermark {
+		width: 100%;
+	}
+}
+@media (max-width: 750px) {
+	#hero-watermark {
+		display: none;
+	}
+}
+@media (max-width: 400px) {
+	#hero-header {
+		line-height: 5rem;
+	}
+}

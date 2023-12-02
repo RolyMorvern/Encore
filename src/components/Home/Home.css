@@ -1,0 +1,12 @@
+#hero-bg {
+	min-height: auto;
+	background: url("../../Images/hero-bg.svg");
+	background-repeat: no-repeat !important;
+	background-size: contain !important;
+	background-position: right !important;
+}
+@media (max-width: 500px) {
+	#hero-bg {
+		background: #080d0e !important;
+	}
+}

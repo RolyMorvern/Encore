@@ -1,0 +1,11 @@
+#how-it-works-card-container {
+	width: 80vw;
+	display: flex;
+	justify-content: space-between;
+}
+@media(max-width: 1200px) {
+	#how-it-works-card-container {
+		flex-direction: column;
+		gap: 50px;
+	}
+}
