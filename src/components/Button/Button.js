@@ -6,8 +6,8 @@ import $ from "jquery";
 function Button () {
 	const { t } = useTranslation("home");
 	return (
-		<a href={$("#sign-up-btn").text() == "Read it!" ? "/read-todays-issue" : "/fr/read-todays-issue"} className="sign-up-btn">
-			<span id="sign-up-btn">{t("buttonText")}</span>
+		<a href={$("#sign-up-btn-txt").text() == "Read it!" ? "/read-todays-issue" : "/fr/read-todays-issue"} className="sign-up-btn">
+			<span id="sign-up-btn-txt">{t("buttonText")}</span>
 			<FaUserPlus />
 		</a>
 	)
